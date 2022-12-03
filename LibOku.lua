@@ -9,7 +9,7 @@ local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 local ScreenGui = Instance.new('ScreenGui');
 
-ScreenGui.Name = 'GameSense'
+ScreenGui.Name = 'x3sVortex'
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
 ScreenGui.Parent = CoreGui;
 
@@ -25,7 +25,7 @@ local Library = {
 
     HudRegistry = {};
 
-    FontColor = Color3.fromRGB(206, 206, 206);
+    FontColor = Color3.fromRGB(255, 255, 255);
     MainColor = Color3.fromRGB(29, 29, 36);
     BackgroundColor = Color3.fromRGB(26, 29, 34);
     AccentColor = Color3.fromRGB(119, 0, 255);
