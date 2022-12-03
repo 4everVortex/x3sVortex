@@ -9,7 +9,7 @@ local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 local ScreenGui = Instance.new('ScreenGui');
 
-ScreenGui.Name = 'x3sVortex'
+ScreenGui.Name = 'GameSense'
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
 ScreenGui.Parent = CoreGui;
 
@@ -25,10 +25,10 @@ local Library = {
 
     HudRegistry = {};
 
-    FontColor = Color3.fromRGB(255, 255, 255);
+    FontColor = Color3.fromRGB(206, 206, 206);
     MainColor = Color3.fromRGB(29, 29, 36);
     BackgroundColor = Color3.fromRGB(26, 29, 34);
-    AccentColor = Color3.fromRGB(119, 0, 255);
+    AccentColor = Color3.fromRGB(65, 149, 155);
     OutlineColor = Color3.fromRGB(79, 99, 99);
 
     Black = Color3.new(0, 0, 0);
@@ -2156,7 +2156,7 @@ do
 
     local WatermarkOuter = Library:Create('Frame', {
         BorderColor3 = Color3.new(0, 0, 0);
-        Position = UDim2.new(0, 105, 0, -25);
+        Position = UDim2.new(0, 100, 0, -25);
         Size = UDim2.new(0, 213, 0, 20);
         ZIndex = 200;
         Visible = false;
