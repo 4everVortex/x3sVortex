@@ -1110,7 +1110,7 @@ do
         });
 
         local ToggleInner = Library:Create('Frame', {
-            BackgroundColor3 = Color3.fromRGB(119, 0, 255);
+            BackgroundColor3 = Library.AccentColor;
             BorderColor3 = Library.OutlineColor;
             BorderMode = Enum.BorderMode.Inset;
             Size = UDim2.new(1, 0, 1, 0);
@@ -1119,7 +1119,7 @@ do
         });
 
         Library:AddToRegistry(ToggleInner, {
-            BackgroundColor3 = 'MainColor';
+            BackgroundColor3 = 'AccentColor';
             BorderColor3 = 'OutlineColor';
         });
 
